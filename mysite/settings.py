@@ -122,5 +122,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT =  os.path.join(os.path.join(BASE_DIR, 'blog'), "static")
 
-print "Static root is:"
-print STATIC_ROOT
+print ("Static root is:")
+print (STATIC_ROOT)
